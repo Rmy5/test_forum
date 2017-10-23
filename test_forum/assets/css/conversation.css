@@ -1,0 +1,17 @@
+body{
+    background-color: #aeaeae;
+}
+table{
+    border-collapse: collapse;
+}
+tr:first-of-type{
+    background-color: lightgrey;
+    color: white;
+}
+td, th{
+    border: 1px solid black;
+
+}
+#err404{
+    font-size: 55px;
+}

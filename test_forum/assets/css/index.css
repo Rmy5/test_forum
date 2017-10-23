@@ -1,0 +1,47 @@
+body{
+    background-color: #aeaeae;
+    font-size: 20px;
+}
+#msg{
+    border-collapse: collapse;
+}
+#msg tr:first-of-type{
+    background-color: lightgrey;
+    color: white;
+}
+#msg td, th{
+    border: 1px solid black;
+}
+.closed{
+    background-color: #DB6C4D;
+}
+.opened{
+    background-color: #73DB4D;
+}
+textarea{
+    width: 275px;
+    height: 100px;
+    resize: none;
+}
+label{
+    font-size: 16px;
+}
+#login{
+    position: absolute;
+    border: 1px solid black;
+    overflow: auto;
+    top: 8px;
+    right: 120px;
+}
+#sign{
+    padding: 20px;
+    background-color: lightgrey;
+}
+#sign .l{
+    text-align: right;
+}
+#logged{
+    position: absolute;
+    top: 8px;
+    right: 50px;
+}
